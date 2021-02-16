@@ -1,0 +1,14 @@
+.vscode/
+
+.npmrc
+
+package-lock.json
+LICENSE
+
+node_modules/
+public/
+src/
+dist/
+
+dist.zip
+
