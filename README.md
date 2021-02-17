@@ -4,9 +4,10 @@
 
 ## eslint
 
+> JSDOC
+
 ## prettier
 
 ## commitlint
 
 ## stylelint
-

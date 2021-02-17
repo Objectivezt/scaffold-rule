@@ -1,6 +1,6 @@
 {
   "name": "@scaffold/rules",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "main": "index.js",
   "description": "prettier, eslint, stylelint commitlint config",
   "keywords": [
@@ -37,6 +37,7 @@
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.0.3",
+    "eslint-plugin-jsdoc": "^32.0.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-markdown": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.1",
@@ -44,13 +45,14 @@
     "eslint-plugin-react": "7.17.0",
     "eslint-plugin-react-hooks": "1.7.0",
     "eslint-plugin-unicorn": "^8.0.1",
+    "htmlhint": "^0.14.2",
     "husky": "^3.0.9",
+    "lint-staged": "^10.5.4",
     "prettier": "1.19.1",
     "prettier-stylelint": "^0.4.2",
     "stylelint": "^9.4.0",
     "stylelint-config-prettier": "^4.0.0",
-    "stylelint-config-standard": "^18.2.0",
-    "lint-staged": "^10.5.4"
+    "stylelint-config-standard": "^18.2.0"
   },
   "author": "Objectivezt",
   "license": "MIT"

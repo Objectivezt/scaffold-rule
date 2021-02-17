@@ -2,7 +2,7 @@
  * @Author: objectivezt
  * @Date: 2021-02-16 17:13:30
  * @Last Modified by: objectivezt
- * @Last Modified time: 2021-02-16 20:10:11
+ * @Last Modified time: 2021-02-17 14:37:24
  */
 
 module.exports = {
@@ -22,7 +22,7 @@ module.exports = {
    */
   endOfLine: 'auto',
 
-  printWidth: 100,
+  printWidth: 100, // 120
   /**
    * @english By default, Prettier will wrap markdown text as-is since some services use a linebreak-sensitive renderer, e.g. GitHub comment and BitBucket. In some cases you may want to rely on editor/viewer soft wrapping instead, so this option allows you to opt out with "never".
    * @chinese
