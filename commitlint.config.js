@@ -1,3 +1,9 @@
+/*
+ * @Author: objectivezt
+ * @Date: 2021-02-17 12:10:19
+ * @Last Modified by: objectivezt
+ * @Last Modified time: 2021-02-17 13:31:32
+ */
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
