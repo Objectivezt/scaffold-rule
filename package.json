@@ -12,11 +12,12 @@
   "scripts": {
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "eslint --ext .js  ",
-    "pre-commit": "lint-staged"
+    "staged": "lint-staged",
+    "pre-commit": "npm run staged && npm run lint && npm run version"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run pre-commit && npm run lint",
+      "pre-commit": "npm run pre-commit",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
