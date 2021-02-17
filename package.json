@@ -10,7 +10,7 @@
     "commitlint"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "eslint --ext .js  ",
     "pre-commit": "npm run lint"
   },
@@ -24,6 +24,7 @@
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "babel-eslint": "10.0.3",
+    "conventional-changelog-cli": "^2.1.1",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-airbnb-base": "14.2.0",
@@ -52,7 +53,9 @@
     "prettier-stylelint": "^0.4.2",
     "stylelint": "^9.4.0",
     "stylelint-config-prettier": "^4.0.0",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-selector-bem-pattern": "^2.1.0"
   },
   "author": "Objectivezt",
   "license": "MIT"
