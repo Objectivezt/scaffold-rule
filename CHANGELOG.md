@@ -1,4 +1,5 @@
 # 0.5.0 (2021-02-17)
+
 ### Bug Fixes
 
 * lock ([601ac58](https://github.com/Objectivezt/scaffold-rule/commit/601ac58))
