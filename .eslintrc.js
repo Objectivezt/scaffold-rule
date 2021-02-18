@@ -167,7 +167,17 @@ const STRICT_MODE = {
     'react-hooks/exhaustive-deps': 0,
     'react-hooks/rules-of-hooks': 2,
 
-    // append 20210217
+    /**
+     * ---------圈复杂度-----------
+     */
+    complexity: [
+        'warn',
+        { max: 20 }
+    ],
+
+    /**
+     * ---------JSDOC-----------
+     */
     // 检测无效的填充块
     'jsdoc/check-indentation': 1,
     // *号必须按标准对齐

@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
-    "lint": "eslint --ext .js  ",
+    "lint": "eslint --ext *.js",
     "staged": "lint-staged",
     "pre-commit": "npm run staged && npm run lint && npm run version"
   },

@@ -1,5 +1,5 @@
 <a name="0.5.0"></a>
-# 0.5.0 (2021-02-17)
+# 0.5.0 (2021-02-18)
 
 
 ### Bug Fixes
@@ -10,6 +10,7 @@
 
 ### Features
 
+*     complexity: [ ([87c22cc](https://github.com/Objectivezt/scaffold-rule/commit/87c22cc))
 * add eslint prettier config ([b3a3956](https://github.com/Objectivezt/scaffold-rule/commit/b3a3956))
 * add htmlhint jsdoc lint ([8c2314d](https://github.com/Objectivezt/scaffold-rule/commit/8c2314d))
 * add lintstage ([d0535e1](https://github.com/Objectivezt/scaffold-rule/commit/d0535e1))
